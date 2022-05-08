@@ -15,7 +15,7 @@ echo		7/tcp
 echo		7/udp
 discard		9/tcp		sink null
 discard		9/udp		sink null
-systat		11/tcp		users
+systat		11/tcp		user
 daytime		13/tcp
 daytime		13/udp
 netstat		15/tcp
