@@ -1,2 +1,2 @@
-for i in range(20):
-	print(i)
+for i in range(30):
+	print('task1=' + str(i))
