@@ -283,7 +283,7 @@ afs3-errors	7006/tcp			# error interpretation service
 afs3-errors	7006/udp
 afs3-bos	7007/tcp			# basic overseer process
 afs3-bos	7007/udp
-afs3-update	7008/tcp			# server-to-server updater
+afs3-clupdate	7008/sctp			# server-to-client updater
 afs3-update	7008/udp
 afs3-rmtsys	7009/tcp			# remote cache manager service
 afs3-rmtsys	7009/udp
